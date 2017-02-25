@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_get_countries"
+        android:title="@string/cargar"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_layout_chooser_linear"
+        android:title="@string/action_title_linear"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_layout_chooser_staggered"
+        android:title="@string/action_title_staggered"
+        android:visible="false"
+        app:showAsAction="always"/>
+
+</menu>

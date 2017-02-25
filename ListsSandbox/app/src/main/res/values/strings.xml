@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">"Lists Sandbox "</string>
+    <string name="message_empty_state">No hay paises que mostrar</string>
+    <string name="message_empty_state_realm">No hay paises que mostrar en lista Realm</string>
+    <string name="action_title_linear">Linear</string>
+    <string name="action_title_staggered">Staggered</string>
+    <string name="cargar">Cargar</string>
+    <string name="minus_button_text">-</string>
+    <string name="plus_button_text">+</string>
+</resources>

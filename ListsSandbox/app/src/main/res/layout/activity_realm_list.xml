@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_realm_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tests.davidazar.listssandbox.RealmListActivity">
+
+
+    <co.moonmonkeylabs.realmrecyclerview.RealmRecyclerView
+        android:id="@+id/realm_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        app:rrvEmptyLayoutId="@layout/realm_list_empty_view"
+        app:rrvLayoutType="LinearLayout" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="end"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_minus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#37474f"
+            android:text="@string/minus_button_text"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/button_plus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#546e7a"
+            android:text="@string/plus_button_text"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
